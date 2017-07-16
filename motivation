@@ -1,0 +1,20 @@
+Problem:
+
+Consider a set of randomly generated positive integer values between a given range. These constraints are arbitrary
+and contribute to the simplicity of the set up.
+
+In the first case, consider if these elements are arranged in a straight line, represented as a graph with edges
+between adjacent vertices, which are labeled with their values.
+
+We want to find the longest consecutive sequence of nodes such that vi <= vj for each i < j in the sequence.
+
+Secondly, consider the case where the values are arranged in an n x n grid such that there is an edge connecting
+vertices to the left, right, up, and down directions. In the case of the edges, they will have only 3 edges, and
+the corners only 2. Again, we want to find the longest consecutive sequence of nodes such that vi <= vj for each of
+the chosen vertices in the sequence.
+
+- As an extension of the grid, consider the case where each vertex is given 4 edges exactly and the "grid" forms
+torus.
+
+Finally, consider an arbitrary dimension n x n x ... x n grid. Again, find the longest non-decreasing sequence of
+values/vertices. 
